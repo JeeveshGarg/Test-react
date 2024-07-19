@@ -4,7 +4,8 @@ import './App.css';
 import Percept from '@perceptinsight/percept-js';
 
 Percept.init("5ec4bee37bc21c5b9e35b01cb892a61773b4ce55a95167cd58e84f7f42f68d82", {
-  autoTrackRuntimeErrors: true
+  autoTrackRuntimeErrors: true,
+  enableExperiment: true,
 });
 
 Percept.setUserId("Jeevesh001");
