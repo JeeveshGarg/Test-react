@@ -3,12 +3,10 @@ import './App.css';
 
 import Percept from '@perceptinsight/percept-js';
 
-Percept.init("5ec4bee37bc21c5b9e35b01cb892a61773b4ce55a95167cd58e84f7f42f68d82", {
+Percept.init("fe3626deb35c0735c2eeac2531ae05418b356d42dfac7d4e0864769f4916a8e2", {
   autoTrackRuntimeErrors: true,
   enableExperiment: true,
 });
-
-Percept.setUserId("Jeevesh001");
 
 function handleClick() {
   Percept.capture('Dummy Event Ford', { screen_name: 'FordScreen' });
