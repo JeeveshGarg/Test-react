@@ -8,6 +8,8 @@ Percept.init("fe3626deb35c0735c2eeac2531ae05418b356d42dfac7d4e0864769f4916a8e2",
   enableExperiment: true,
 });
 
+Percept.capture('Experiment a1 jeevesh', { screen_name: 'FordScreen' });
+
 function handleClick() {
   Percept.capture('Dummy Event Ford', { screen_name: 'FordScreen' });
 }
